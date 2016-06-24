@@ -9,6 +9,7 @@ addons:
 
 os:
   - linux
+  - osx
 
 before_script:
   - ulimit -c unlimited -S
