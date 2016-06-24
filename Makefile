@@ -17,7 +17,7 @@ clean:
 
 
 lit:
-	curl -L https://github.com/luvit/lit/raw/$(LIT_VERSION)/get-lit.sh | sh
+	curl -L https://raw.githubusercontent.com/squeek502/lit/debug/get-lit.sh | sh
 
 luvit: lit $(APP_FILES)
 	./lit make
